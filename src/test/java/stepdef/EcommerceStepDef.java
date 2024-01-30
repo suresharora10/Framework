@@ -7,6 +7,7 @@ import io.cucumber.java.en.When;
 public class EcommerceStepDef {
     @Given("user logins to url {string}")
     public void user_logins_to_url(String string) {
+        System.out.println("inside login");
         // Write code here that turns the phrase above into concrete actions
 
     }
