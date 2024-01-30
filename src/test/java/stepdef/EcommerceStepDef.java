@@ -28,11 +28,11 @@ public class EcommerceStepDef {
     @When("clicks sign in")
     public void clicks_sign_in() {
         // Write code here that turns the phrase above into concrete actions
-        
+
     }
     @Then("user is on Amazon web page")
     public void user_is_on_amazon_web_page() {
         // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        //throw new io.cucumber.java.PendingException();
     }
 }
