@@ -1,3 +1,5 @@
+package stepdef;
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -6,7 +8,7 @@ import org.junit.Assert;
 
 public class MyStepdefs {
     Calculator c;
-        @Given("^2 numbers$")
+        @Given("2 numbers")
         public void two_number(){
             System.out.println(" 2 no are input");
         }
