@@ -17,6 +17,7 @@ public class EcommerceStepDef {
     }
     @When("user opens orange hrm homepage")
     public void user_opens_orange_hrm_homepage() {
+        System.out.println("open browser");
         d.get("https://www.orangehrm.com/");
         d.manage().window().maximize();
     }
