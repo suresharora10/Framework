@@ -19,6 +19,7 @@ public class EcommerceStepDef {
     }
     @When("clicks continue")
     public void clicks_continue() {
+        System.out.println("clicking continue");
         // Write code here that turns the phrase above into concrete actions
 
     }
