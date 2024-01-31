@@ -13,6 +13,7 @@ public class EcommerceStepDef {
     }
     @When("enters email id {string}")
     public void enters_email_id(String string) {
+        System.out.println("enter email id");
         // Write code here that turns the phrase above into concrete actions
 
     }
