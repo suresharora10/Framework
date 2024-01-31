@@ -27,6 +27,7 @@ public class EcommerceStepDef {
     }
     @Then("close the browser")
     public void close_the_browser() {
+        System.out.println("Browser is closed");
         d.quit();
     }
 
