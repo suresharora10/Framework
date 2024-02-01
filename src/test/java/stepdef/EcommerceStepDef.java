@@ -12,6 +12,7 @@ public class EcommerceStepDef {
     WebDriver d;
     @Given("user launchs chrome browser")
     public void user_launchs_chrome_browser() {
+        System.out.println("Setting edge browser");
         System.setProperty("webdriver.edge.driver","C://Users//Lenovo//Downloads//edgedriver_win64/msedgedriver.exe");
         d = new EdgeDriver();
     }
