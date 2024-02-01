@@ -1,9 +1,7 @@
 Feature: Ecommerce website test cases
 
-  Scenario: Login to Amazon
-    Given user logins to url ""
-    When enters email id ""
-    And clicks continue
-    And enters paswword ""
-    And clicks sign in
-    Then user is on Amazon web page
+  Scenario: Logo presence on OrangeHRM page
+    Given user launchs chrome browser
+    When user opens orange hrm homepage
+    Then user verify that logo is present on page
+    And close the browser

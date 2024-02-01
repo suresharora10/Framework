@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82fce7e4-4d05-4609-bc81-d027dbd84aa8" name="Changes" comment="">
+    <list default="true" id="82fce7e4-4d05-4609-bc81-d027dbd84aa8" name="Changes" comment="selenium scenario">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdef/EcommerceStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdef/EcommerceStepDef.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,6 +13,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$/../reports" openResultsInEditor="true" userTempatePath="" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -37,13 +39,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "feature",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "C:/Users/Lenovo/IdeaProjects/Framework",
+    "last_opened_file_path": "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.2.4/lib/junit4.jar",
     "onboarding.tips.debug.path": "C:/Users/Lenovo/IdeaProjects/Framework/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
+    "project.structure.side.proportion": "0.21954022",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
@@ -54,7 +56,7 @@
       <recent name="C:\Users\Lenovo\IdeaProjects\Framework\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Login to Amazon">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Logo presence on OrangeHRM page">
     <configuration name="CucumberRunConfiguration" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -76,6 +78,25 @@
       <option name="NAME_FILTER" value="^Login to Amazon$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Login to Amazon$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Login to Amazon" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Logo presence on OrangeHRM page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/Ecommerce.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Framework" />
+      <option name="NAME_FILTER" value="^Logo presence on OrangeHRM page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Logo presence on OrangeHRM page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Logo presence on OrangeHRM page" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -122,10 +143,12 @@
     <list>
       <item itemvalue="Cucumber Java.CucumberRunConfiguration" />
       <item itemvalue="Cucumber Java.Scenario: Login to Amazon" />
+      <item itemvalue="Cucumber Java.Scenario: Logo presence on OrangeHRM page" />
       <item itemvalue="Cucumber Java.Scenario: Sum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Logo presence on OrangeHRM page" />
         <item itemvalue="Cucumber Java.Scenario: Login to Amazon" />
         <item itemvalue="Cucumber Java.Scenario: Sum" />
       </list>
@@ -140,7 +163,20 @@
       <option name="presentableId" value="Default" />
       <updated>1706557931935</updated>
     </task>
+    <task id="LOCAL-00001" summary="selenium scenario">
+      <option name="closed" value="true" />
+      <created>1706682453180</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706682453180</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="selenium scenario" />
+    <option name="LAST_COMMIT_MESSAGE" value="selenium scenario" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
