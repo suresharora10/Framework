@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="82fce7e4-4d05-4609-bc81-d027dbd84aa8" name="Changes" comment="selenium scenario">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdef/EcommerceStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdef/EcommerceStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +57,7 @@
       <recent name="C:\Users\Lenovo\IdeaProjects\Framework\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Logo presence on OrangeHRM page">
+  <component name="RunManager" selected="JUnit.TestRunner">
     <configuration name="CucumberRunConfiguration" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -127,6 +128,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Framework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Framework" />
       <method v="2">
@@ -145,9 +155,11 @@
       <item itemvalue="Cucumber Java.Scenario: Login to Amazon" />
       <item itemvalue="Cucumber Java.Scenario: Logo presence on OrangeHRM page" />
       <item itemvalue="Cucumber Java.Scenario: Sum" />
+      <item itemvalue="JUnit.TestRunner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Cucumber Java.Scenario: Logo presence on OrangeHRM page" />
         <item itemvalue="Cucumber Java.Scenario: Login to Amazon" />
         <item itemvalue="Cucumber Java.Scenario: Sum" />
