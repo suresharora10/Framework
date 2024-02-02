@@ -7,6 +7,11 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.concurrent.TimeUnit;
 
 public class EcommerceStepDef {
     WebDriver d;
@@ -15,8 +20,12 @@ public class EcommerceStepDef {
     public void user_launchs_chrome_browser() {
         System.out.println("checking if build is triggered on PR ");
         System.out.println("Setting edge browser");
-        System.setProperty("webdriver.edge.driver","C://Users//Lenovo//Downloads//edgedriver_win64/msedgedriver.exe");
+        //System.setProperty("webdriver.edge.driver","library//edgedriver_win64/msedgedriver.exe");
         d = new EdgeDriver();
+        //d.manage().timeouts().implicitlyWait(10, TimeUnit.MILLISECONDS);
+        /*WebDriverWait w = new WebDriverWait(d,5);
+        w.until(ExpectedConditions.urlContains("hrm"));*/
+
     }
     @When("user opens orange hrm homepage")
     public void user_opens_orange_hrm_homepage() {
