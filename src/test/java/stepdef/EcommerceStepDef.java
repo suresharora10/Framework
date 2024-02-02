@@ -24,6 +24,7 @@ public class EcommerceStepDef {
     }
     @Then("user verify that logo is present on page")
     public void user_verify_that_logo_is_present_on_page() {
+        System.out.println("logo is presentgit ");
         boolean status = d.findElement(By.xpath("//a[@class='navbar-brand nav-logo']/img[@alt='OrangeHRM Logo']")).isDisplayed();
         Assert.assertEquals(true, status);
     }
