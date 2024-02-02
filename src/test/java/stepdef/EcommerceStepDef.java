@@ -10,8 +10,10 @@ import org.openqa.selenium.edge.EdgeDriver;
 
 public class EcommerceStepDef {
     WebDriver d;
+
     @Given("user launchs chrome browser")
     public void user_launchs_chrome_browser() {
+        System.out.println("checking if build is triggered on PR ");
         System.out.println("Setting edge browser");
         System.setProperty("webdriver.edge.driver","C://Users//Lenovo//Downloads//edgedriver_win64/msedgedriver.exe");
         d = new EdgeDriver();
@@ -33,5 +35,6 @@ public class EcommerceStepDef {
         System.out.println("Browser is closed");
         d.quit();
     }
+
 
 }
