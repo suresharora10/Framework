@@ -5,15 +5,20 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 
 public class EcommerceStepDef {
     WebDriver d;
     @Given("user launchs chrome browser")
     public void user_launchs_chrome_browser() {
-        System.setProperty("webdriver.edge.driver","C://Users//Lenovo//Downloads//edgedriver_win64/msedgedriver.exe");
-        d = new EdgeDriver();
+        ChromeOptions chromeOptions = new ChromeOptions();
+        chromeOptions.setPageLoadStrategy(PageLoadStrategy.NORMAL);
+        d = new ChromeDriver(chromeOptions);
+        System.out.println("hii");
     }
     @When("user opens orange hrm homepage")
     public void user_opens_orange_hrm_homepage() {
